@@ -1,6 +1,6 @@
 <?php
 
-require_once('.\src\Payeezy.php');
+require_once('./src/Payeezy.php');
 
 class PayeezyTest extends PHPUnit_Framework_TestCase
 {

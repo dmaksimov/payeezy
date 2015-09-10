@@ -1,5 +1,7 @@
 <?php
 
+namespace Dmaksimov;
+
 class Payeezy
 {
   /**
