@@ -1,0 +1,15 @@
+{
+    "name": "dmaksimov/payeezy",
+    "authors": [
+        {
+            "name": "David Maksimov",
+            "email": "dmaksi@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    }
+}
