@@ -128,7 +128,14 @@ class Payeezy
                       'card_number'=> $args['card_number'],
                       'exp_date'=> $args['card_expiry'],
                       'cvv'=> $args['card_cvv'],
+                    ),
+              'billing_address' => array(
+                  'email' => $args['email'],
+                  'phone' => array(
+                      'type' => 'phone',
+                      'number' => $args['phone']
                     )
+                )
       );
 
       self::$url = self::$baseURL;
